@@ -1,4 +1,6 @@
 web-bugs
 ========
 
-A place to report bugs on websites (see [webcompat.com](http://webcompat.com) for more context).
+A repo used by the Web Compatibility community to track issues reported via [webcompat.com](http://webcompat.com)
+
+![Screenshot of webcompat.com](screenie.png)
