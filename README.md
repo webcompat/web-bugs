@@ -25,7 +25,7 @@ Labels are used for helping to filter bugs into groups but also to track the sta
 - `wontfix` - The site has been contacted and refuses to fix the bug
 
 
-###Best practices:
+###Best practices
 
 If you’re using Webcompat.com already, you’re probably pretty awesome. So why do you need to read this? Well from experience we know a few tricks that make the web compatibility process go even smoother. And who doesn’t want to learn sweet new tricks?
 
