@@ -36,7 +36,7 @@ If you’re using Webcompat.com already, you’re probably pretty awesome. So wh
 - If you feel comfortable dig in and analyze the bug as well
 
 ####Analyzing web compatibility bugs
-- Confirm that you can reproduce the error
+- Confirm that you can reproduce the error. Ideally you should use a clean browser profile. See [this tutorial for Firefox](http://www.otsukare.info/2014/11/12/configure-webcompat-browser).
 - Set any related flags - if the bug appears on Chrome for Android, set the “Chrome” and “Android” flags
 - Provide details on which piece of code is broken
 - List out any relevant error codes
