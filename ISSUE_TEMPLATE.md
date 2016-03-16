@@ -1,10 +1,10 @@
-__Site URL(Required):__
+**URL**:
 
-__Browser/Version:__
+**Browser/Version**:
 
-__Operating System:__
+**Operating System**:
 
-__What seems to be the trouble?(Required)__
+**What seems to be the trouble?(Required)**
 - [ ] Desktop site instead of mobile site
 - [ ] Mobile site is not usable
 - [ ] Video doesn't play
@@ -12,7 +12,7 @@ __What seems to be the trouble?(Required)__
 - [ ] Text is not visible
 - [ ] Something else (Add details below)
 
-__Steps to Reproduce__
+**Steps to Reproduce**
 
 1. Navigate to: (*site url*)
 2. *Any additional steps to be taken*
@@ -23,6 +23,6 @@ __Steps to Reproduce__
 *__Actual Behavior:__*
 
 
-__Screenshot__
+**Screenshot**
 
 ![Add Screenshot](https://your/screenshot/url/here.png "Screenshot Descriptions")
