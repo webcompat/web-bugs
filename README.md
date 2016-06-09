@@ -9,21 +9,24 @@ A repo used by the Web Compatibility community to track issues reported via [web
 ###Labels
 Labels are used for helping to filter bugs into groups but also to track the status of the bug. Here’s what each label means:
 
-- `android` - The bug exists in an Android browser
-- `chrome` - The bug exists in Google Chrome
-- `contactready` - Issue has been analyzed and is ready for someone to contact the site
-- `firefox` - The bug exists in Mozilla Firefox
-- `ie` - The bug exists in Microsoft Internet Explorer
+- `browser-xyz` - The bug exists in *xyz* browser
 - `ios` - The bug exists in an iOS browser
 - `mobile` - The bug exists on mobile devices
-- `needsinfo` - Someone has requested more information from another person
-- `opera` - The bug exists in Opera browser
-- `safari` - The bug exists in Apple Safari
-- `sitewait` - Someone has attempted to contact the website
-- `duplicate` - The issue has been reported previously and is being tracked in another bug
-- `invalid` - The issue has been diagnosed as not being a compatibility bug
-- `wontfix` - The site has been contacted and refuses to fix the bug
-
+- `os-android` - The bug exists in an Android browser
+- `status-contactready` - Issue has been analyzed and is ready for someone to contact the site
+- `status-duplicate` - Issue is the same as an already-reported issue
+- `status-fixed` - Issue is fixed
+- `status-ie-bugbar` - ?
+- `status-imported` - ?
+- `status-invalid` - Issue is not a web compatibility issue
+- `status-needscontact` - ?
+- `status-needsdiagnosis` - Issue needs further analysis to find the cause
+- `status-needsinfo` - Issue needs more information
+- `status-needstriage` - ?
+- `status-sitewait` - The web site with the issue has been contacted
+- `status-wontfix` - The issue will not be fixed
+- `status-worksforme` - The issue can't be reproduced
+- `windows` - The bug exists in a Windows browser
 
 ###Best practices
 
@@ -37,16 +40,16 @@ If you’re using Webcompat.com already, you’re probably pretty awesome. So wh
 
 ####Analyzing web compatibility bugs
 - Confirm that you can reproduce the error. Ideally you should use a clean browser profile. See [this tutorial for Firefox](http://www.otsukare.info/2014/11/12/configure-webcompat-browser).
-- Set any related flags - if the bug appears on Chrome for Android, set the “Chrome” and “Android” flags
+- Set any related labels - if the bug appears on Chrome for Android, set the “browser-chrome” and “os-android” labels
 - Provide details on which piece of code is broken
 - List out any relevant error codes
 - If possible, suggest a way to fix the code to work in all browsers
-- Once complete, add the “contactready” label
+- Once complete, add the “status-contactready” label
 - If you feel comfortable find a contact at the site and reach out
 
 ####Contacting the site/company
-- Once a bug is set to “contactready” the site can be contacted
-- After you have attempted to make contact remove the "contactready" label and add "sitewait" so others don't attempt to contact
+- Once a bug is set to “status-contactready” the site can be contacted
+- After you have attempted to make contact remove the "status-contactready" label and add "status-sitewait" so others don't attempt to contact
 - Leave details about who you are contacting, example “Joe Webmaster - Developer at Company X”
 - Be careful not to leak any private information like email addresses, phone numbers
 - If you post somewhere public like twitter, include the link to the tweet in the bug for easy tracking
