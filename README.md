@@ -12,19 +12,28 @@ Labels are used for helping to filter bugs into groups but also to track the sta
 - `browser-xyz` - The bug exists in *xyz* browser
 - `ios` - The bug exists in an iOS browser
 - `mobile` - The bug exists on mobile devices
+- `nsfw` - The website has content that could be considered offensive
 - `os-android` - The bug exists in an Android browser
-- `status-contactready` - Issue has been analyzed and is ready for someone to contact the site
+- `windows` - The bug exists in a Windows browser
+
+#####Open Statuses
+Status labels which should only be used when a bug report is still open. These are in the order the bug process should typically follow, with the exception of needsinfo and leaveopen.
+- `status-needstriage` - The issue needs to be screened and prioritized
+- `status-needsdiagnosis` - Issue needs further analysis to find the cause
+- `status-needscontact` - The issue has been analyzed, a contact for the site is required
+- `status-contactready` - A contact has been found, it is ready for someone to contact the site
+- `status-sitewait` - The web site with the issue has been contacted
+- `status-needsinfo` - Issue needs more information, usually means process is blocked until info is provided.
+- `status-leave-open` - 
+
+#####Closed Statuses
+Status labels which should only be used when a bug report is closed.
 - `status-duplicate` - Issue is the same as an already-reported issue
 - `status-fixed` - Issue is fixed
+- `status-incomplete` - The report requires more information to be actionable
 - `status-invalid` - Issue is not a web compatibility issue
-- `status-needscontact` - The web site with the issue needs to be contacted
-- `status-needsdiagnosis` - Issue needs further analysis to find the cause
-- `status-needsinfo` - Issue needs more information
-- `status-needstriage` - The issue needs to be screened and prioritized
-- `status-sitewait` - The web site with the issue has been contacted
 - `status-wontfix` - The issue will not be fixed
 - `status-worksforme` - The issue can't be reproduced
-- `windows` - The bug exists in a Windows browser
 
 ###Best practices
 
