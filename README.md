@@ -24,7 +24,7 @@ Status labels which should only be used when a bug report is still open. These a
 - `status-contactready` - A contact has been found, it is ready for someone to contact the site
 - `status-sitewait` - The web site with the issue has been contacted
 - `status-needsinfo` - Issue needs more information, usually means process is blocked until info is provided.
-- `status-leave-open` - 
+- `status-leave-open` - Please leave this issue open until futher notice
 
 ##### Closed Statuses
 Status labels which should only be used when a bug report is closed.
