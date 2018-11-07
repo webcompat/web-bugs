@@ -1,0 +1,32 @@
+# Configuration for lock-threads - https://github.com/dessant/lock-threads
+
+# Number of days of inactivity before a closed issue or pull request is locked
+daysUntilLock: 7
+
+# Issues and pull requests with these labels will not be locked. Set to `[]` to disable
+exemptLabels:
+  - status-needsinfo-denschub
+  - status-needsinfo-adamopenweb
+  - status-needsinfo-wisniewskit
+  - status-needsinfo-miketaylr
+  - status-needsinfo-sergiu
+  - status-needsinfo-oana
+  - status-needsinfo-karlcow
+  - status-needsinfo-foolip
+  - status-needsinfo-patrickkettner
+  - status-needsinfo-rwlbuis
+
+# Label to add before locking, such as `outdated`. Set to `false` to disable
+lockLabel: false
+
+# Comment to post before locking. Set to `false` to disable
+lockComment: >
+  This issue has been automatically locked since there has not been
+  any recent activity after it was closed. Please open a new issue at
+  https://webcompat.com/issues/new if you are experiencing a similar problem.
+
+# Assign `resolved` as the reason for locking. Set to `false` to disable
+setLockReason: true
+
+# Limit to only `issues` or `pulls`
+only: issues
