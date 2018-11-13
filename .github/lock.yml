@@ -5,7 +5,7 @@ daysUntilLock: 7
 
 # Skip issues and pull requests created before a given timestamp. Timestamp must
 # follow ISO 8601 (`YYYY-MM-DD`). Set to `false` to disable
-skipCreatedBefore: 2018-11-12
+skipCreatedBefore: "2018-11-12"
 
 # Issues and pull requests with these labels will not be locked. Set to `[]` to disable
 exemptLabels:
