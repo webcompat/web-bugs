@@ -1,0 +1,36 @@
+X-Clx-Ushades: ⁨None⁩
+Dkim-Signature: ⁨v=1; a=rsa-sha256; c=relaxed/simple; d=mail.com; s=dbd5af2cbaf7; t=1578345433; bh=tElpdf5le61n5nLboNVc0oNOnVlWhcgBT4A9rPKu6ig=; h=X-UI-Sender-Class:From:To:Subject:Date; b=N9yjuXwEXj3BeaGGpC4qrsGT6/Rby1Zuii3op5oOEJaGKmz1fMHfacQJruTPcq9FJ 1uoMWw5H2mnv+HiPstxhOlc8h/iQ51R4uclbiGxiAgw7g5YzfrJapBP0nyKd5qhXvU WSKR7v4w6VE9PbK+BesxaNyiOxHjX0N95pVxgX4U=⁩
+X-Dmarc-Policy: ⁨none⁩
+X-Clx-Spam: ⁨false⁩
+Authentication-Results: ⁨magent0798.usmsc04.pie.apple.com; dmarc=none header.from=job4u.com⁩
+Authentication-Results: ⁨magent1620.usmsc04.pie.apple.com; dkim=pass (1024-bit key) header.d=mail.com header.i=@mail.com header.b=N9yjuXwE⁩
+Authentication-Results: ⁨magent0922.usmsc04.pie.apple.com; spf=pass (magent0922.usmsc04.pie.apple.com: domain of Xellia@job4u.com designates 74.208.4.200 as permitted sender) smtp.mailfrom=Xellia@job4u.com⁩
+X-Ui-Out-Filterresults: ⁨notjunk:1;V03:K0:6pxhacWJMj4=:SU0fmEf1e90KUDufaRiOh9 j1aKh0PcjfPsU/paMDR2diWPHptnL6lhq0AjKp8YWHXlS76HiiZL805d90LW9jgbIohfVG9aS KnnEmNrhpHX6Xun91LfNzoeyKv/pnxqAQAJ1mo2AyxOmNSmMpmCrKFCsJzEOg9d3yiEbFceF1 YDR2Lb74DBoFjO+T/bJSZ9DGTcIZKdLyrWMx8Wtj/tQG8/2cUuPceoAWJBVNMLxeN3CynGjfS GI953weNBoyr5UYJArJj3JE46sP5Yj6HcXMsv/L1XkWqUuNXJ7hxbKZw+3mt0siGnQiCnFMYG YzKP5av/RUwJIbf7H54fWEyT2o1OJ2iJwMhQdEJJTpjdLlsaT5AtepCZSi2FRDujPHiFLhRT/ hTsCyQ+V2rzP0h36rYWhoMvgxNCdmhYd4spaEJJ092nomobJl46aLI9ed+RqEL3uyjsY6qrBC GKTadNBUcSKNelD09pWSIy8VoZHmv2Ux6W74FR99QPK71rrXhQatKlWqmlx4WHGBfYga6TCI3 /iPrrGT2dqb12omxfePfJymSHMA6k+Lei00Snkz4d7WOEjbic6N9ErX7bfQYBprkvS6rCWLDr u4Qm3H0Vl+7TtQ98mqSuG5idpCZoV9WH+zlQUfJe8fu9AnKCU68pGTwKmWl1uSfuKrUxvqhm2 ey8RiCP7Dc0e3+EPnRtGn9AMnIiBrpEW21w06Ji06w4v2gLFqVcPhjBAAd3yYRHuhRTj1x88n 30RlSXL7jM+4LLUmSt+phgFdk+CxRTk8tBFTuV0Kk2aCcRV4MRHItCgRu9E=⁩
+Importance: ⁨normal⁩
+Return-Path: ⁨<Xellia@job4u.com>⁩
+X-Priority: ⁨3⁩
+X-Apple-Action: ⁨MOVE_TO_FOLDER/INBOX⁩
+X-Spam-Flag: ⁨NO⁩
+Original-Recipient: ⁨rfc822;daviboy@icloud.com⁩
+X-Apple-Uuid: ⁨ac0f971f-8f00-40b1-83f0-eb71208eb72b⁩
+X-Icloud-Message-Id: ⁨c4293285bdfb927596ed3856fd7274f8f8a1fe436996fdd288b3b382e9cab27d⁩
+X-Proofpoint-Spam-Details: ⁨rule=notspam policy=default score=0 suspectscore=8 malwarescore=0 phishscore=0 bulkscore=0 spamscore=0 clxscore=28 mlxscore=0 mlxlogscore=999 adultscore=0 classifier=spam adjust=0 reason=mlx scancount=1 engine=8.0.1-1908290000 definitions=main-2001060178⁩
+⁨<trinity-36590d17-3fad-4d93-bea6-971652c7bf5a-1578345433379@3c-app-mailcom-lxa10>⁩
+X-Proofpoint-Virus-Version: ⁨vendor=fsecure engine=2.50.10434:,, definitions=2020-01-06_07:,, signatures=0⁩
+Mime-Version: ⁨1.0⁩
+X-Dmarc-Info: ⁨pass=none; dmarc-policy=(nopolicy); s=u0; d=u0⁩
+X-Clx-Shades: ⁨None⁩
+Received: ⁨from mr91p64im-zteg11061801 by pv33p39ic-ztdg10191901 (mailgateway 1923B116) with SMTP id ac0f971f-8f00-40b1-83f0-eb71208eb72b  for <daviboy@icloud.com>; Mon, 6 Jan 2020 21:17:16 GMT⁩
+Received: ⁨from 17.120.88.72 by 17.120.88.35 (mailnotify 1916B19:21:15:21:17:16:BA); Mon, 6 Jan 2020 21:17:16 GMT⁩
+Received: ⁨from mout.gmx.com (mout.gmx.com [74.208.4.200]) by ms11p00im-qufv17091201.me.com (Postfix) with ESMTPS id 08AA78209AE for <daviboy@icloud.com>; Mon,  6 Jan 2020 21:17:13 +0000 (UTC)⁩
+Received: ⁨from [104.238.38.88] ([104.238.38.88]) by web-mail.mail.com (3c-app-mailcom-lxa10.server.lan [10.76.45.11]) (via HTTP); Mon, 6 Jan 2020 22:17:13 +0100⁩
+Content-Type: ⁨multipart/mixed; boundary=rekceb-fa652af8-f4ba-40d2-a6b8-18dfca866e47⁩
+Sensitivity: ⁨Normal⁩
+X-Ui-Sender-Class: ⁨214d933f-fd2f-45c7-a636-f5d79ae31a79⁩
+X-Provags-Id: ⁨V03:K1:X6KlUflSLGUwHRGoV7WYwSdK/9IzcOwXgAd4BM6lNN9LjU9qg6p3Rn2vwef+9Sc5DVobn 5Bqj7IGUk3xtU2fvT9FVamiIhojDHdqbi6uBZt4/KsItpJ0NUdm4lTROjTHGHdtQJ5/pMwCePq5E isLe55yTpw/TzCCGFCfHLRhHVpCXUFxtOb1atzXJE6UR1zNQKyjZNJHVBjAHWOVoiT6Iy472RUx3 LGDPPsAqefUoIj6KFs2B+hO7XCOGAipIKgB0QAeXFiNhJvByyQ0UUrTWeXU2rmTwyD7i/cE3cPKY o8=⁩
+X-Mantsh: ⁨1TEIXR1kbG1oaGkNHB1tfTFwbGhofGx8aGxEKTEMXGxoEGxsYBBsbGgQeGRAbHho fGhEKTFkXGBIRCllEF2FkE2l4UxNTXB1wEQpZTRdkRURPEQpZSRcZGnEbBh8TdwYHHRoGGgYaB hMZBhpxGhAadwYaBhoGGgYHGB8GGgYacRoQGncGGhEKWV4XaG55EQpDThdyXkh6e2Bvf2kbGFN LAX5ab2ZTT24ZHW8SSW1uG1tGGREKWFwXGQQaBB4ZBx0cEksdHx9JBRsaBBMEGxIEGBoaEBseG h8aEQpeWRd8eX9CGxEKTVwXGxIcEQpMWhdSaU17axEKRVkXaREKTF8XegUFBQUFBQUFBUQRCkx GF28RCkNaFx0eBBgaEgQeBBgaGhEKQl4XGxEKQkUXaElpQXpTRENAUnMRCkJOF21vTlxfWmZte UBoEQpCTBdmWWByemJ5REhvQxEKQmwXYBlTTVNpbRpzY0IRCkJAF2JMTkd5W01YAWQcEQpCWBd hHU0eHWEdSX1pSBEKWlgXGBEKcGsXYEYcenBOcl9Za2EQGhEKcEsXYxgYZX5LfkJyfQUQBxsaG BEKcGwXZ1AeZk0BR1lcZE4QGhEKcEMXbE1HHUdAZXt4Rn4QGhEKbX4XGhEKWE0XSxE=⁩
+X-Apple-Movetofolder: ⁨INBOX  modseq 0⁩
+Received-Spf: ⁨pass (magent0922.usmsc04.pie.apple.com: domain of Xellia@job4u.com designates 74.208.4.200 as permitted sender) receiver=magent0922.usmsc04.pie.apple.com; client-ip=74.208.4.200; helo=mout.gmx.com; envelope-from=Xellia@job4u.com⁩
+X-Icl-Info: ⁨GAtbRFYDBVBFSlVFSwAGQhkQEhoNQwsMVQoTShZfWAdVHAJKIFVaDhwYJh0XUgIXWxoJGlhWUl8f FgRDDR5VDRhZFR4IDQFWW0tWT1YEGFBFSUYfHVxZXxgWEwNWV1saWxoJGlhAQhBIFAkCDB5RDw1X BRgVEFIGSBQHHhQeVQ0YWQseHA0KFgcQCB4MSRtRQ0xfRxwBAU9GHwcTVQRSW0ZUBBIZBhtbQkhQ QkpTAQATTAdaSQUBWkZNU0NLAwVVTDlVFFVRRhJYFAceFFNZD1gVHhZJAAhCBxpbExlGXwAaACYe G1xZFxFXBRgV⁩
+X-Clx-Score: ⁨28⁩
+X-Clx-Unspecialscore: ⁨None⁩
