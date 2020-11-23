@@ -1,3 +1,12 @@
+---
+name: Webcompat Bug report
+about: Create a report to help us improve
+title: domain name - very short summary
+labels: status-needsinfo-oana, status-needsinfo-sergiu, status-needsinfo-cipriansv
+assignees: ''
+
+---
+
 **URL**:
 
 **Browser/Version**:
