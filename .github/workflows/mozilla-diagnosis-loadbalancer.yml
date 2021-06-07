@@ -1,0 +1,11 @@
+on:
+  issues:
+    types: [milestoned]
+
+jobs:
+  mozilla_diagnosis_loadbalancer:
+    runs-on: ubuntu-latest
+    name: Assign a Mozilla team member for diagnosis
+    steps:
+      - name: Assign Mozilla team member
+        uses: webcompat/mozilla-diagnosis-loadbalancer@v1.0.0

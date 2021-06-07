@@ -1,0 +1,64 @@
+# Parameters for automatically assigning a Mozilla team member for issues in
+# need of diagnosis, see https://github.com/webcompat/mozilla-diagnosis-loadbalancer
+
+# Allow-list of labels Mozilla team members can look at.
+actionable_labels:
+  - browser-android-components
+  - browser-fenix
+  - browser-firefox
+  - browser-firefox-esr
+  - browser-firefox-focus
+  - browser-firefox-ios
+  - browser-firefox-mobile
+  - browser-firefox-reality
+  - browser-firefox-tablet
+  - browser-focus-geckoview
+
+# List of Mozilla diagnosis team members, along with their workload-weight
+# and diagnosis capabilities.
+diagnosers:
+  - username: denschub
+    weight: 125
+    capabilities:
+      - android
+      - ios
+      - virtual_reality
+  - username: karlcow
+    weight: 75
+    capabilities:
+      - android
+      - ios
+  - username: ksy36
+    weight: 100
+    capabilities:
+      - android
+      - ios
+  - username: wisniewskit
+    weight: 100
+    capabilities:
+      - android
+      - virtual_reality
+
+# A list of per-label capability filters to avoid assigning issues to team
+# members without required hardware to test. Each entry contains a list of
+# affected labels, as well as a list of required capabilities.
+capabilities_filter:
+  - labels:
+      - browser-android-components
+      - browser-fenix
+      - browser-firefox-focus
+      - browser-firefox-mobile
+      - browser-firefox-tablet
+      - browser-focus-geckoview
+    capability: android
+
+  - labels:
+      - browser-firefox-ios
+    capability: ios
+
+  - labels:
+      - browser-firefox-reality
+    capability: virtual_reality
+
+# For debugging only: leave a comment instead of assignign issues.
+comment_instead_of_assigning: false
