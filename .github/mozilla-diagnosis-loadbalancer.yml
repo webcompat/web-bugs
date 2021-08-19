@@ -10,7 +10,6 @@ actionable_labels:
   - browser-firefox-focus
   - browser-firefox-ios
   - browser-firefox-mobile
-  - browser-firefox-reality
   - browser-firefox-tablet
   - browser-focus-geckoview
 
@@ -22,7 +21,6 @@ diagnosers:
     capabilities:
       - android
       - ios
-      - virtual_reality
   - username: karlcow
     weight: 75
     capabilities:
@@ -37,7 +35,6 @@ diagnosers:
     weight: 100
     capabilities:
       - android
-      - virtual_reality
 
 # A list of per-label capability filters to avoid assigning issues to team
 # members without required hardware to test. Each entry contains a list of
@@ -55,10 +52,6 @@ capabilities_filter:
   - labels:
       - browser-firefox-ios
     capability: ios
-
-  - labels:
-      - browser-firefox-reality
-    capability: virtual_reality
 
 # For debugging only: leave a comment instead of assignign issues.
 comment_instead_of_assigning: false
