@@ -17,12 +17,12 @@ actionable_labels:
 # and diagnosis capabilities.
 diagnosers:
   - username: denschub
-    weight: 125
+    weight: 100
     capabilities:
       - android
       - ios
   - username: karlcow
-    weight: 75
+    weight: 100
     capabilities:
       - android
       - ios
