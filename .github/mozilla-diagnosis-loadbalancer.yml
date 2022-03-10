@@ -31,10 +31,10 @@ diagnosers:
     capabilities:
       - android
       - ios
-  - username: wisniewskit
-    weight: 100
-    capabilities:
-      - android
+#   - username: wisniewskit
+#     weight: 100
+#     capabilities:
+#       - android
 
 # A list of per-label capability filters to avoid assigning issues to team
 # members without required hardware to test. Each entry contains a list of
