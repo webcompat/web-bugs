@@ -21,11 +21,6 @@ diagnosers:
     capabilities:
       - android
       - ios
-  - username: karlcow
-    weight: 100
-    capabilities:
-      - android
-      - ios
   - username: ksy36
     weight: 100
     capabilities:
